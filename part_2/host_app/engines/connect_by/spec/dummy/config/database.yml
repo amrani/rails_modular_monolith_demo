@@ -1,0 +1,8 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+test:
+  <<: *default
+  database: host_app_connect_by_dummy_test
