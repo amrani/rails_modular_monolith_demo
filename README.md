@@ -1,6 +1,8 @@
 # Rails Modular Monolith Demo
 
-A three part tutorial for creating a Ruby on Rails 6 engine. We will add user authentication, add shared testing setup, and configure our engines.
+This demo is intended to introduce and encourage rails developers to build more modular rails applications. 
+
+The three part tutorial walks you through creating, testing, and configuring your first Ruby on Rails engine. 
 
 **Part 1**
 [Create Your First Rails Engine](https://www.hocnest.com/blog/create-user-rails-engine/)
@@ -10,3 +12,6 @@ A three part tutorial for creating a Ruby on Rails 6 engine. We will add user au
 
 **Part 3**
 [Configure Your First Rails Engine](https://www.hocnest.com/blog/configure-rails-engine/)
+
+
+I maintain a [collection of resources](https://www.hocnest.com/modular-monolith-resources/) if you'd like to learn more. 
