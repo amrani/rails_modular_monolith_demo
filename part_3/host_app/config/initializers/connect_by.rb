@@ -1,3 +1,1 @@
-ConnectBy.configure do |config|
-  config.application_controller = "ApplicationController"
-end
+ConnectBy.application_controller = "ApplicationController"

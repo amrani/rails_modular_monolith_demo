@@ -1,9 +1,5 @@
 module ConnectBy
-  class << self
-    def configure
-      yield Engine.config
-    end
-  end
+  mattr_accessor :application_controller
 
   class Engine < ::Rails::Engine
     isolate_namespace ConnectBy
