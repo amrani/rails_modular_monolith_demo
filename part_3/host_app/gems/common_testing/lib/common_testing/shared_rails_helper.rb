@@ -13,6 +13,7 @@ require "rspec/rails"
 
 # factories are defined in the engine.
 FactoryBot.definition_file_paths << File.join(ENGINE_ROOT, "spec/factories")
+FactoryBot.factories.clear
 FactoryBot.find_definitions
 
 begin
